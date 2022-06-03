@@ -9,7 +9,7 @@ step 2. cd to directory containing python file
 step 3. run python -m luigi --module top_artists AggregateArtists --local-scheduler --date-interval 2012-10
 step 4. check out new files in data directory 
 
-<font size = 8> https://luigi.readthedocs.io/en/stable/example_top_artists.html </font>
+<sub> https://luigi.readthedocs.io/en/stable/example_top_artists.html </sub>
 
 example 2 
 
@@ -19,7 +19,7 @@ step 3. create a few more tasks
 step 4. define a global parameters 
 step 5. run bottommost task python -m luigi --module word-frequency TopWords --local-schedule --GlobalParams-NumberBooks 15 --GlobalParams-NumberTopWords 750
 
-_https://www.digitalocean.com/community/tutorials/how-to-build-a-data-processing-pipeline-using-luigi-in-python-on-ubuntu-20-04_
+<sub> https://www.digitalocean.com/community/tutorials/how-to-build-a-data-processing-pipeline-using-luigi-in-python-on-ubuntu-20-04 </sub>
 
 pending
 * example 3 
