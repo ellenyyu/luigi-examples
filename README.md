@@ -4,10 +4,10 @@ minimal working examples using Spotify's luigi
 
 example 1 
 
-step 1. git clone luigi repo
-step 2. cd to directory containing python file 
-step 3. run python -m luigi --module top_artists AggregateArtists --local-scheduler --date-interval 2012-10
-step 4. check out new files in data directory 
+* step 1. git clone luigi repo
+* step 2. cd to directory containing python file 
+* step 3. run python -m luigi --module top_artists AggregateArtists --local-scheduler --date-interval 2012-10
+* step 4. check out new files in data directory 
 
 <sub> https://luigi.readthedocs.io/en/stable/example_top_artists.html </sub>
 
