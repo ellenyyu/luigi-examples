@@ -13,11 +13,11 @@ example 1
 
 example 2 
 
-step 1. create a venv and install luigi and dependencies 
-step 2. create luigi task to extract a list of books 
-step 3. create a few more tasks 
-step 4. define a global parameters 
-step 5. run bottommost task python -m luigi --module word-frequency TopWords --local-schedule --GlobalParams-NumberBooks 15 --GlobalParams-NumberTopWords 750
+* step 1. create a venv and install luigi and dependencies 
+* step 2. create luigi task to extract a list of books 
+* step 3. create a few more tasks 
+* step 4. define a global parameters 
+* step 5. run bottommost task python -m luigi --module word-frequency TopWords --local-schedule --GlobalParams-NumberBooks 15 --GlobalParams-NumberTopWords 750
 
 <sub> https://www.digitalocean.com/community/tutorials/how-to-build-a-data-processing-pipeline-using-luigi-in-python-on-ubuntu-20-04 </sub>
 
