@@ -4,7 +4,7 @@ This repo contains minimum working examples using Spotify's luigi. The idea here
 
 ## Example 1 
 
-In this example pulled from the luigi documentation,
+This example is pulled from the luigi documentation. Using the following steps, you will run a luigi task: 
 
 1. ```git clone``` the lugi repo ```https://github.com/spotify/luigi```
 2. ```cd`` to directory containing the python file, top_artist.py
