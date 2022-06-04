@@ -6,10 +6,10 @@ This repo contains minimum working examples using Spotify's luigi.
 
 In this example pulled from the luigi documentation,
 
-1. git clone luigi repo
-2. cd to directory containing the python file ```top_artist.py```
+1. ``git clone``` the lugi repo ```https://github.com/spotify/luigi```
+2. ```cd`` to directory containing the python file, top_artist.py
 3. run ```python -m luigi --module top_artists AggregateArtists --local-scheduler --date-interval 2012-10```
-4. check out new files in data directory 
+4. check out new files in the data directory 
 
 <sub> https://luigi.readthedocs.io/en/stable/example_top_artists.html </sub>
 
