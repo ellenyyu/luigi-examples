@@ -15,13 +15,15 @@ Play with the value of the date-interval parameter and see how it affects the fi
 
 ## Example 2 
 
+This examples shows an end to end job using luigi. Please open up this tutorial and complete the following items: 
+
 1. create a venv and install luigi and dependencies 
 2. create luigi task to extract a list of books 
 3. create a few more tasks 
 4. define a global parameters 
-5. run bottommost task python -m luigi --module word-frequency TopWords --local-schedule --GlobalParams-NumberBooks 15 --GlobalParams-NumberTopWords 750
+5. run bottommost task ```python -m luigi --module word-frequency TopWords --local-schedule --GlobalParams-NumberBooks 15 --GlobalParams-NumberTopWords 750```
 
-<sub> https://www.digitalocean.com/community/tutorials/how-to-build-a-data-processing-pipeline-using-luigi-in-python-on-ubuntu-20-04 </sub>
+Note, I did not set up an Ubuntu server with a non-root user and sudo privileges and I forgoed Step 4 _Running the Luigi Schedule_ in the original tutorial. Link to the tutorial https://www.digitalocean.com/community/tutorials/how-to-build-a-data-processing-pipeline-using-luigi-in-python-on-ubuntu-20-04
 
 ## Example 3
 
