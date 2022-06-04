@@ -27,7 +27,7 @@ example 3
 2. run python run_luigi_oneparam.py SquaredNumbers --local-scheduler --n 20
 3. run python run_luigi_twoparam.py SquaredNumbers --local-scheduler --n 45 --start 9
 
-original author is https://marcobonzanini.com/2015/10/24/building-data-pipelines-with-python-and-luigi/ . I adapted his work to test adding an additional parameter. Note, both parameters are not used in dependent task, SquaredNumbers, but rather are simply fed in so they can be called with SquaredNumbers. Additionally, I was also inspired to write a task similar to PrintNumbers for my work. Last but not least, this example shows how you can run luigi with a 'normal' python script consisting of import luigi and if __name__ == '__main__': luigi.run(). Previously, we showed a virtual environment with loaded dependencies. Along similar lines, this time we call the python directly whereas previously we called the script with python -m luigi. 
+Original author is https://marcobonzanini.com/2015/10/24/building-data-pipelines-with-python-and-luigi/ . I adapted his work to test adding an additional parameter. Note, both parameters are not used in dependent task, SquaredNumbers, but rather are simply fed in so they can be called with SquaredNumbers. Additionally, I was also inspired to write a task similar to PrintNumbers for my work. Last but not least, this example shows how you can run luigi with a 'normal' python script consisting of import luigi and if __name__ == '__main__': luigi.run(). Previously, we showed a virtual environment with loaded dependencies. Along similar lines, this time, we call the python directly whereas previously we called the script with python -m luigi. 
 
 pending
 * requirements file 
