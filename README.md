@@ -4,14 +4,14 @@ This repo contains minimum working examples using Spotify's luigi. The idea here
 
 ## Example 1 
 
-This example is pulled from the luigi documentation. Using the following steps, you will run a luigi task: 
+This example is pulled from the luigi documention. To learn how to run a luigi task, AggregateArtists, please follow the following steps: 
 
-1. ```git clone``` the lugi repo ```https://github.com/spotify/luigi```
-2. ```cd``` to directory containing the python file, top_artist.py
+1. ```git clone``` the luigi repo ```https://github.com/spotify/luigi```
+2. ```cd examples``` to get to the directory contain the python file you're going to run, top_artists.py
 3. run ```python -m luigi --module top_artists AggregateArtists --local-scheduler --date-interval 2012-10```
 4. check out new files in the data directory 
 
-<sub> https://luigi.readthedocs.io/en/stable/example_top_artists.html </sub>
+Play with the value of the date-interval parameter and see how it affects the files in the data folder. For example, you can try ```--date-interval 2012-8``` or ```--date-interval 2011-9```. Btw, instead of specifying a PYTHONPATH as shown in the official example, I used the command ```python -m ``` to be consistent with the examples that follow. The original example is found here https://luigi.readthedocs.io/en/stable/example_top_artists.html.  
 
 ## Example 2 
 
@@ -25,7 +25,7 @@ This example is pulled from the luigi documentation. Using the following steps, 
 
 ## Example 3
 
-This is an example of a complete job using luigi where task 1 creates the inputs for task 2. This example also shows the difference between hardcoded parameters, one parameter, and multiple parameters in luigi. To get started, git clone the repo and run the following in your command line: 
+This is an example of a complete job using luigi where task 1 creates the inputs for task 2. This example also shows the difference between hardcoded parameters, one parameter, and multiple parameters in luigi. To get started, git clone this repo and run the following in your command line: 
 
 1. run python run_luigi_hardcoded.py SquaredNumbers --local-scheduler
 2. run python run_luigi_oneparam.py SquaredNumbers --local-scheduler --n 20
