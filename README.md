@@ -1,6 +1,6 @@
 # Luigi Examples
 
-This repo contains minimum working examples using Spotify's luigi. 
+This repo contains minimum working examples using Spotify's luigi. The idea here is to enable a quick grasp of the technology. 
 
 ## Example 1 
 
